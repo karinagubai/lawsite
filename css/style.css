@@ -36,7 +36,7 @@ h1 {
 h2 {
     font-size: 24px;
     color: rgba(0, 0, 0, .87);
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 40px;
     margin: 0;
 }
@@ -291,6 +291,10 @@ figure:hover .item {
     box-shadow: 0 0 15px rgba(0, 0, 0, .9);
 }
 
+.modal-content h3 {
+    color: rgba(0, 0, 0, .87);
+}
+
 .portfolio img {
     border: 1px solid #dcc17e;
     margin-bottom: 30px;
@@ -299,6 +303,11 @@ figure:hover .item {
 .portfolio img:hover {
     box-shadow: 0 0 20px rgba( 0, 0, 0, .3);
     border-color: white;
+}
+
+.portfolio-pdf {
+    display: inline-block;
+    margin-bottom: 30px;
 }
 
 .modalSpan {
@@ -432,6 +441,24 @@ button {
 
     img {
         max-width: 100%;
+    }
+
+    h2 {
+        padding-top: 50px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .portfolio h2,
+    .consultation h2 {
+        padding-bottom: 20px;
+    }
+
+    .portfolio-pdf,
+    .consultation span {
+        font-size: 14px;
     }
 
     .main-nav-block {
