@@ -420,7 +420,20 @@ button {
   Media Queries
 ==================================== */
 
+@media (max-width: 379px){
+
+    .slideshow {
+        padding-top: 190px;
+    }
+
+}
+
 @media (max-width: 768px) {
+
+    img {
+        max-width: 100%;
+    }
+
     .main-nav-block {
     display: none;
     padding-left: 0;
@@ -470,8 +483,6 @@ button {
     .modal p {
         text-align: center;
     }
-
-
 }
 
 @media (min-width: 769px) {
